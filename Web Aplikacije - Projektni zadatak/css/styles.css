@@ -1,0 +1,333 @@
+*				{ margin:0; padding:0; border:0;	}
+
+body			{ background-image:url(../images/pozadina2.jpg);
+					font-family:"Segoe Print", "Georgia", Arial, Helvetica, sans-serif;
+					height:100%; }
+
+p, h1, h2, h3 			{ color:#4c3a32; }
+
+
+
+#all			{ width:900px; 
+					min-height:100%; 
+					position:relative;
+					margin:auto;
+					padding:0 30px 10px; 
+					background-color:#ECE5CE;
+					font-family:"Segoe Print", "Georgia", Arial, Helvetica, sans-serif;
+					font-style:italic;
+					 }
+
+#top			{ background-color:#4c3a32;
+					width:900px;
+					margin:5px auto 0;
+					padding:5px 30px;
+					height:100px;
+						}
+
+#logo			{ float:left;
+					height:100px	}
+
+#social			{ float:right;
+					margin:20px 0 0 0;	}
+#social ul li	{ display:inline;
+					list-style-type:none;
+					margin:0 0 0 20px;	 }
+
+#nav 			{ clear:both;
+					background-color:#E08E79;
+					width:960px;
+					margin:auto;	}
+
+#nav ul			{ width:955px; height:28px;
+					
+					background-color:#E08E79;
+					margin:0px;
+					padding:5px 0px 5px 5px;
+					 }
+
+#nav ul li		{ display:inline;
+						}
+
+#nav ul li a	{background-color:#E08E79; 
+					display:block; 
+					display:inline;
+					float:left;
+					padding:0px 30px;
+					
+					}
+					
+		
+#nav a:link		{ font-weight:bold; text-decoration:none; color:#4c3a32; font-style:normal;	}
+#nav a:visited	{ font-weight:bold; text-decoration:none; color:#4c3a32; font-style:normal;	}
+#nav a:active	{ font-weight:bold; text-decoration:none; color:#4c3a32; font-style:normal;	}
+#nav a:hover	{ font-weight:bold; text-decoration:none; color:#4c3a32; font-style:normal;	}
+#nav a:focus 	{ font-weight:bold; text-decoration:none; color:#4c3a32; font-style:normal;	}
+
+#nav ul li a:hover { background-color:#F1D4AF;
+					
+						transition: all 0.3s ease-out;}
+						
+#nav ul li a:active { background-color:#F1D4AF;
+						box-shadow: inset 0px 0px 5px 1px #ac977d;}		
+		
+#navt a:link	{ font-weight:bold; text-decoration:none; color:#4c3a32; font-style:normal;	}
+#navt a:visited	{ font-weight:bold; text-decoration:none; color:#4c3a32; font-style:normal;	}
+#navt a:active	{ font-weight:bold; text-decoration:none; color:#4c3a32; font-style:normal;	}
+#navt a:hover	{ font-weight:bold; text-decoration:none; color:#4c3a32; font-style:normal;	}
+#navt a:focus 	{ font-weight:bold; text-decoration:none; color:#4c3a32; font-style:normal;	}
+
+#navt ul li a:hover { background-color:#E08E79;
+			
+						transition: all 0.3s ease-out;
+				
+					}
+						
+#navt ul li a:active { background-color:#E08E79;
+					}
+						
+
+#navt 			{ clear:both;
+					background-color:#F1D4AF;
+					width:auto;
+					margin:15px 17px 0 17px;	}
+
+#navt ul			{ width:auto; height:28px;
+					
+					background-color:#F1D4AF;
+					margin:auto;
+					padding:5px 0px 5px 5px;
+					 }
+
+#navt ul li		{ display:inline;
+						}
+
+#navt ul li a	{background-color:#F1D4AF; 
+					display:block; 
+					display:inline;
+					float:left;
+					padding:0px 30px;
+					
+					}
+		
+
+#onama 			{
+	float: left;
+	width:400px;
+	font-style:normal;
+	font-weight:400;
+	background-color:#F1D4AF;
+	margin:30px 0px 30px 17px;
+	padding:10px;
+	font-size:15px;
+	
+				}
+#onamas			{float:right;
+					width:400px;
+					margin:30px 20px 0 20px}	
+					
+#onamas img		{padding:10px;
+					background-color:#E08E79;
+					float:right;
+					margin-bottom:17px;
+				}					
+	
+					
+#kolaci 		{
+	float: left;
+	font-style:normal;
+	font-weight:400;
+	background-color:#F1D4AF;
+	margin:30px 17px 0 17px;
+	padding:10px;
+	width:846px;
+}
+	
+#hvala 		{
+	float: left;
+	font-style:normal;
+	font-weight:400;
+	background-color:#F1D4AF;
+	margin:30px 17px 30px 17px;
+	padding:10px;
+	width:846px;
+	
+	
+				}
+				
+#content h3 	{padding-top:20px;	
+
+				}			
+				
+#slika1			{float:left;
+					width:420px;
+					margin:30px 20px 0 20px}	
+
+#slika1 img		{padding:10px;
+					background-color:#E08E79;
+					float:right;
+					margin-bottom:17px;
+				}				
+#video iframe		{padding:10px;
+					background-color:#E08E79;
+					float:left;
+					margin-bottom:17px;
+				}						
+#footer			{ clear:both; 
+					padding-top:10px;
+					margin-top:20px;
+					border-top:1px #4c3a32 dotted;
+				
+					width:100%;
+					position:relative;	}
+					
+#footer p 		{ text-align:center;
+					font-style:normal;
+					font-weight:bold;
+					font-size:12px;
+					width:100%;
+					position:relative;
+					}
+					
+form          	 {  margin:0 0 20px 0;
+					float:right;
+					width:395px;
+					height:auto;
+					background-color:#F1D4AF;
+					font-family: "Segoe Print", "Georgia", Arial, Helvetica, sans-serif;
+					font-style:normal;
+					font-weight:bold;
+					color:#4c3a32;
+					padding:10px;
+					margin-top:30px;
+				
+					}
+
+
+
+
+
+
+
+
+textarea:focus, input:focus {
+					background:#ECE5CE;
+}
+
+#forma ol li {list-style-type:none;}
+
+
+input, textarea {   
+  						width:375px;
+					display:block;
+					margin:0 5px;
+					padding:5px;
+					background-color:#ECE5CE;
+					height: 25px;
+					font-family: "Segoe Print", "Georgia", Arial, Helvetica, sans-serif;
+					font-style:normal;
+					font-weight:bold;
+					color:#4c3a32;
+				
+    }  
+  
+textarea {   
+    width: 375px;  
+    max-width: 375px;  
+    height: 150px;  
+    line-height: 150%;  
+    }  
+  
+input:hover, textarea:hover,  
+input:focus, textarea:focus {   
+    border-color: #837f72;   
+    }  
+  
+.form label {   
+    margin-left: 10px;   
+    color: #4c3a32;   
+    }  
+  
+#submit {  
+   						width:100px;
+						height:30px;
+						margin-top:10px;
+						background:#ECE5CE;
+						color:#4c3a32;
+						font-family: "Segoe Print", "Georgia", Arial, Helvetica, sans-serif;
+						font-weight:bold;
+					
+    }  
+#submit:hover { 	background-color:#ECE5CE;
+					border: 1px solid #F1D4AF;
+					}
+
+#posalji 		{ width:10px;
+
+				}
+
+#contacttext {	font-size:14px;
+				font-style:normal;
+				font-weight:normal;
+				padding-top:30px;
+				padding-right:30px;
+				padding-bottom:10px;
+				width:375px;
+				float:left;
+				}
+#karta		{	height:700px;
+				width:880px;
+				float:left;
+				background-color:#F1D4AF;
+				
+				margin-bottom:20px;
+				padding:10px;
+			
+				
+			}
+#slike2		{	margin-top: 10px;	}
+#obavijesti	{	padding: 30px;
+				background-color:#F1D4AF;	}
+				
+
+				
+#news_gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 10%;
+	border: 1px solid black;
+}
+#news_gallery figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+#gallery figure {
+	padding: 0.5em;
+	margin: 0 0.2em 0.5em 0.2em;
+	float: left;
+	width: 22%;
+	border: 1px solid black;
+
+}
+.news hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+#gallery figcaption {
+	font-size: 90%;
+	height: 50px;
+	text-align: center;
+}
+.news img {
+	width: 15%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 1px solid black;
